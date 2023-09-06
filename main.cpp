@@ -1,6 +1,6 @@
-#include <iostream> //Подключение потокового ввода/вывода в консоль
-#include <cmath> //Подключение библиотеки cmath
-using namespace std; //Пространство имён std
+#include <iostream> //Connecting streaming I/O to the console
+#include <cmath> //Connecting the cmath library
+using namespace std; //Namespace std
 void main()
 {
     setlocale(LC_ALL, "Russian");
