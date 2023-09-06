@@ -6,17 +6,17 @@ void main()
     setlocale(LC_ALL, "Russian");
     double x, y, f, s;
     int i;
-    cout << "Введите значение x >> ";
+    cout << "Enter the x value >> ";
     cin >> x;
-    cout << "\nВведите значение y >> ";
+    cout << "\nEnter the y value >> ";
     cin >> y;
-    cout << "\nВыбирите функцию f(x) >> \n1\tsin(x)\n2\tx ^ 2\nelse\te ^ x\n";
+    cout << "\nSelect function f(x) >> \n1\tsin(x)\n2\tx ^ 2\nelse\te ^ x\n";
     cin >> i;
     switch (i)
     {
-    case 1: cout << "\n Выбрана функция f(x) = sin(x):\t" << sin(x); f = sin(x); break;
-    case 2: cout << "\n Выбрана функция f(x) = x^2:\t" << pow(x, 2); f = pow(x, 2); break;
-    default: cout << "\n Выбрана функция f(x) = e^x:\t" << exp(x); f = exp(x);
+    case 1: cout << "\n Selected function f(x) = sin(x):\t" << sin(x); f = sin(x); break;
+    case 2: cout << "\n Selected function f(x) = x^2:\t" << pow(x, 2); f = pow(x, 2); break;
+    default: cout << "\n Selected function f(x) = e^x:\t" << exp(x); f = exp(x);
     }
     if (x > abs(y))
     {
